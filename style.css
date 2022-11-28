@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.abox{
+    background-color: aqua;
+}
+.abox img{
+    width:40vw;
+    height:55vh;
+}
+.bbox{
+
+background-color:wheat;
+
+font-family: 'Cookie', cursive;
+font-size: 35px;
+
+}
+.bbox h1{
+     font-family: 'Didact Gothic', sans-serif;
+    
+     color: black;
+     border-right: 2px solid aquamarine;
+     overflow: hidden;
+     animation: animate 6s linear infinite;
+}
+.fbox{
+    height:53vh;
+    margin-top: 20px;
+    background-color: lightcyan;
+}
+.gbox{
+    font-family: 'Cookie', cursive;
+    background-color: lavenderblush;
+    height:35vh;
+}
+@keyframes animate {
+     
+        0%,10%,100%
+        {
+        width:0px;
+    }
+    70%,90% 
+    {
+        width:100%;
+    }
+}
+    
+
+.abc4{
+    background-color: brown;
+}
+.cbox{
+    font-family: 'Didact Gothic', sans-serif; 
+    background-color: antiquewhite;
+}
+.dbox{
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 20px;
+    margin-bottom:33px;
+    background-color: beige;
+}
+.dbox h2{
+    margin-bottom: 20px;
+}
+.ul2 li2{
+    font-size: 20px;
+    margin-left:50px;
+}
+.ebox{
+  font-size: 40px;
+  width: 100%;
+  background-color: aquamarine;  
+}
+.fbox{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+.fbox h1{
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: blanchedalmond;  
+}
+ul li{
+    font-family: 'Cookie', cursive; 
+}
+@media screen and (max-width:450px){
+    .abox img{
+        width:90vw;
+        height:35vh;
+    }
+    .gbox{
+        height:50vh;
+    }
+    .fbox{
+        height:150vh;
+    }
+}
+    
